@@ -1,6 +1,7 @@
 package luiigi;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
@@ -44,9 +45,11 @@ public class UsuariosSimples {
             lista.add(nome);
             lista.add(nome2);
             lista.add(nome3);
+            Collections.sort(lista,String.CASE_INSENSITIVE_ORDER);
             System.out.println("Aqui está sua lista de usuarios abaixo: ");
             System.out.println(lista);
             System.out.println("");
+            System.out.println("A quantidade de users: "+ lista.toArray().length);
             System.out.println("Deseja começar novamente?");
             String repeat = s.next();
 

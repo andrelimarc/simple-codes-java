@@ -52,7 +52,7 @@ public class SchoolSimple {
 
                 if (mediafinal>=7){
                     System.out.println("Aprovado! Parabéns "+nome+"!"+" Sua média final foi: "+mediafinal);
-                } else if (mediafinal >= 4 && mediafinal <=6) {
+                } else if (mediafinal >= 4 && mediafinal <7) {
                     System.out.println("Recuperação.");
                 } else if (mediafinal < 4) {
                     System.out.println("Reprovado.");
